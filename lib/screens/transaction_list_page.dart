@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:codez/screens/transaction_details_page.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:gap/gap.dart';
 import 'package:intl/intl.dart';
 import 'package:logger/logger.dart';
 
@@ -88,6 +89,7 @@ class _TransactionListScreenState extends ConsumerState<TransactionListScreen> {
           CircularProgressIndicator(
             color: Colors.green,
           ),
+          Gap(12),
           Text(
             'Fetching your {BTC} transactions',
             style: TextStyle(color: Colors.black, fontSize: 18),
