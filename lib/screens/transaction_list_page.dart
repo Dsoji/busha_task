@@ -43,7 +43,7 @@ class _TransactionListScreenState extends ConsumerState<TransactionListScreen> {
 
             // Format the DateTime to a readable string
             String formattedDate =
-                DateFormat('yyyy-MM-dd – kk:mm').format(date);
+                DateFormat('yyyy-MM-dd  •  kk:mm').format(date);
             return ListTile(
               title: Row(
                 children: [
@@ -81,8 +81,18 @@ class _TransactionListScreenState extends ConsumerState<TransactionListScreen> {
         );
       },
       loading: () => const Center(
-          child: CircularProgressIndicator(
-        color: Colors.green,
+          child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          CircularProgressIndicator(
+            color: Colors.green,
+          ),
+          Text(
+            'Fetching your {BTC} transactions',
+            style: TextStyle(color: Colors.black, fontSize: 18),
+          )
+        ],
       )),
       error: (error, stackTrace) {
         _logger.e("Error fetching blocks: $error");

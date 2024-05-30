@@ -28,7 +28,7 @@ class TransactionDetailsScreen extends StatelessWidget {
     DateTime date = DateTime.fromMillisecondsSinceEpoch(timestamp * 1000);
 
     // Format the DateTime to a readable string
-    String formattedDate = DateFormat('yyyy-MM-dd – kk:mm').format(date);
+    String formattedDate = DateFormat('yyyy-MM-dd • kk:mm').format(date);
     return Scaffold(
       appBar: AppBar(
         title: const Text('Transaction details'),
