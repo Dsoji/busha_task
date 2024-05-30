@@ -42,9 +42,14 @@ lib
 
 ## Demo Video
 
-[![Watch the demo video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+https://github.com/Dsoji/busha_task/assets/80987998/5ab459e7-00b6-49c7-8379-e084d2d4eb22
 
-Click the image above to watch the demo video.
+Watch the video above.
+
+## Demo Video
+You can view the application online and also interact with it by clicking the link below:
+
+[Live app demo](https://appetize.io/app/jrg7xr4bzqqbtsilgwgruktuq4?device=pixel7&osVersion=13.0)
 
 ## Download APK
 
