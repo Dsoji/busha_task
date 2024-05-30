@@ -55,7 +55,7 @@ You can view the application online and also interact with it by clicking the li
 
 You can download the latest release of the application from the link below:
 
-[Download app-release.apk](build/app/outputs/flutter-apk/)
+[Download app-release.apk](https://drive.google.com/file/d/1uQwhZO10fBVs48mJwA6cPfIu8N9f7TU5/view?usp=sharing)
 
 ## Packages Used
 
