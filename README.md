@@ -50,7 +50,7 @@ Click the image above to watch the demo video.
 
 You can download the latest release of the application from the link below:
 
-[Download app-release.apk](build/app/outputs/flutter-apk/app-release.apk)
+[Download app-release.apk](build/app/outputs/flutter-apk/)
 
 ## Packages Used
 
